@@ -56,6 +56,10 @@ public class Comment {
 	public String toString() {
 		return "Comment [id=" + id + ", name=" + name + ", content=" + content + ", articleId=" + articleId + "]";
 	}
+<<<<<<< HEAD
+}
+=======
 	
 }
 
+>>>>>>> devlop
