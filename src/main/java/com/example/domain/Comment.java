@@ -1,10 +1,25 @@
 package com.example.domain;
 
+/**
+ * コメント表すドメインクラス.
+ * 
+ * @author nhson
+ *
+ */
 public class Comment {
+	
+	/** ID */
 	private Integer id;
+	
+	/** 名前 */
 	private String name;
+	
+	/** 内容 */
 	private String content;
+	
+	/** 記事ID */
 	private Integer articleId;
+	
 	public Integer getId() {
 		return id;
 	}
